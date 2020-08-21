@@ -5,48 +5,32 @@
     android:id="@+id/homi"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg2"
+    android:background="#f8897d"
     android:orientation="vertical"
-    >
+    tools:context=".SplashActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:gravity="clip_horizontal|center|center_horizontal"
+        android:id="@+id/homi2"
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:textColor="#ffffff"
-                android:background="@drawable/gradient"
-                android:gravity="center"
-                android:text="Random Color">
-
-            </Button>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:orientation="horizontal" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
             android:layout_weight="1"
-            android:orientation="horizontal" />
+            android:background="@drawable/gradient"
+            android:text="Random Color"
+            android:textColor="#000"
+            android:textSize="20sp">
 
+        </Button>
     </LinearLayout>
 
 
